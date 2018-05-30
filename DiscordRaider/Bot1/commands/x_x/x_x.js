@@ -1,7 +1,6 @@
 const commando=require('discord.js-commando');
 console.log("\n\n\n ~ X_X Online ");
 var listCh=[];
-var mems=[];
 const usr=require('./uid.json');
 class x extends commando.Command{
 	constructor(client){
