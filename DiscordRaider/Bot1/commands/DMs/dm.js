@@ -14,7 +14,7 @@ class dm extends commando.Command{
 	async run(message,args){
 		message.delete();
 		let member=message.mentions.members.first();
-		if(message.author.id==usr.uid){
+		if(message.author.id==usr.userid){
 			if(!member)
 				message.author.send("\n\n Please Mention someone to Raid");
 			else{
@@ -22,7 +22,7 @@ class dm extends commando.Command{
 					messsage.author.send("\n Enter Message with the command");
 				else{
 					for(i=0;i<50;i++)
-					member.send(message.content);
+					member.send(args);
 				}
 			}
 		}
