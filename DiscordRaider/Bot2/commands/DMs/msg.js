@@ -13,7 +13,7 @@ class msg extends commando.Command{
 	async run(message,args){
 		let member=message.mentions.members.first();
 		message.delete();
-		if(message.author.id==usr.uid){
+		if(message.author.id==usr.userid){
 			member.send("\n\n ~~ **ANONYMOUS MESSAGE** ~~ ");
 			member.send(args);
 		}
