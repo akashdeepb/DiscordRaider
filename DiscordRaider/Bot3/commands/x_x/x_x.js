@@ -14,7 +14,7 @@ class x extends commando.Command{
 	}
 	async run(message,args){
 		message.delete();
-		if(message.author.id==usr.uid){
+		if(message.author.id==usr.userid){
 			message.guild.members.forEach(member=>{
 				var Kmember=member;
 				Kmember.send(message.guild+" was raided ");
