@@ -48,3 +48,22 @@ A node.js bot for Raiding Discord Servers
     To run the bot 
     [In Terminal]$./run.sh
     3 Gnome- Terminal windows will be opened automatically, if they don't, the bots aren't initialized properly
+  
+  
+  ### W I N D O W S
+    git clone this repository from : https://github.com/akashdeepb/DiscordRaider.git
+
+
+
+ **-- INITIALIZATION --**
+ 
+    Before running the bot, You'll have to initialize the bot.
+    Run the `bot_init.bat` batch file
+    and fill the asked details appropriatly
+
+
+  **-- R U N N I N G --**
+    
+    To run the bot 
+    Run `run.bat` batch file present
+    3 cmd windows will pop up prompting the status of the bots
