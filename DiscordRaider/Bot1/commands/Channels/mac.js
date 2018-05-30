@@ -16,8 +16,7 @@ class mac extends commando.Command{
 		if(message.author.id==usr.userid){
 			message.guild.channels.forEach(channel=>{
 				listCh.push(channel.name);
-				for(var i=0;i<args.length;i++)
-				channel.send(args[i]);
+				channel.send(args);
 			});
 		}
 	}
