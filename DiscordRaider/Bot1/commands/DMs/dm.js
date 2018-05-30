@@ -22,7 +22,7 @@ class dm extends commando.Command{
 					messsage.author.send("\n Enter Message with the command");
 				else{
 					for(i=0;i<50;i++)
-					member.send(args);
+					member.send(message.content);
 				}
 			}
 		}
