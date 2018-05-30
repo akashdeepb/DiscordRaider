@@ -17,6 +17,7 @@ cd ..
 echo -e "\t ~ B O T   - 2    I N I T I A L I Z A T I O N "
 cd Bot2 
 chmod +x bot2_init.sh
+export uid
 ./bot2_init.sh
 npm init
 npm install discord.js --save
@@ -27,6 +28,7 @@ cd ..
 echo -e "\t ~ B O T    - 3   I N I T I A L I Z A T I O N "
 cd Bot3
 chmod +x bot3_init.sh
+export uid
 ./bot3_init.sh
 npm init
 npm install discord.js --save
