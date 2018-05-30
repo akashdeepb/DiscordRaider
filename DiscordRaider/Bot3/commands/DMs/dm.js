@@ -14,7 +14,7 @@ class dm extends commando.Command{
 	async run(message,args){
 		message.delete();
 		let member=message.mentions.members.first();
-		if(message.author.id==usr.uid){
+		if(message.author.id==usr.userid){
 			if(!member)
 				message.author.send("\n\n Please Mention someone to Raid");
 			else{
